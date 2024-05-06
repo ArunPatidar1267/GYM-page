@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym 2</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp" >
+        <ul class="nav-list v-class-resp">
+            <div class="logo" ><img src="img/logo.jpg" alt=""></div>
+         
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Training</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightnav v-class-resp"  >
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm" >Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firsthalf">
+                <div class="text-big" id="home">Your GYM</div>
+
+                <div class="text-small">Fitness is important</div>
+                <div class="button">
+                    <button class="btn like">like</button>
+                    <button class="btn ">comment</button>
+                </div>
+            </div>
+
+            <div class="secundhalf" id="home">
+                <img src="img/logo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="section"  >
+        <div class="pera">
+            <p class="sectiontag text-big" >
+                <b>Physical fitness</b>
+            </p>
+
+            <p class="sectionsubteg text-small">
+              Physical fitness is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations, and daily activities. Physical fitness is generally achieved through proper nutrition,moderate-vigorous physical exercise, and sufficient rest along with a formal recovery plan
+            </p>
+        </div>
+        <div class="thubnail" ><img src="https://images.unsplash.com/photo-1577221084712-45b0445d2b00?q=80&w=1898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    </section>
+
+    <section class="section secleft" id="about">
+        <div class="pera">
+            <p class="sectiontag text-big">
+                <b>Exercise</b>
+            </p>
+
+            <p class="sectionsubteg text-small">
+                Anaerobic exercise features high-intensity movements performed in a short period of time. It is a fast, high-intensity exercise that does not require the body to utilize oxygen to produce energy. It helps to promote strength, endurance, speed, and power; and is used by bodybuilders to build workout intensity. Anaerobic exercises are thought to increase the metabolic rate, thereby allowing one to burn additional calories as the body recovers from exercise due to an increase in body temperature and excess post-exercise oxygen consumption (EPOC) after the exercise ended.
+            </p>
+        </div>
+        <div class="thubnail"><img src="https://images.unsplash.com/photo-1606902965551-dce093cda6e7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="pera">
+            <p class="sectiontag text-big">
+               <b>Training</b>
+            </p>
+
+            <p class="sectionsubteg text-small">
+                Specific or task-oriented fitness is a person's ability to perform in a specific activity, such as sports or military service, with a reasonable efficiency. Specific training prepares athletes to perform well in their sport. These include, among others: <br>
+
+               <p> <br> 100 m sprint: In a sprint, the athlete must be trained to work anaerobically throughout the race, an example of how to do this would be interval training.</p>
+               <p><br> Century ride: Cyclists must be prepared aerobically for a bike ride of 100 miles or more.</p>
+               <p><br> Middle distance running: Athletes require both speed and endurance to gain benefit out of this training. The hard-working muscles are at their peak for a longer period of time as they are being used at that level for the longer period of time.</p>
+               <p><br> Marathon: In this case, the athlete must be trained to work aerobically, and their endurance must be built-up to a maximum.
+                Many firefighters and police officers undergo regular fitness testing to determine if they are capable of the physically demanding tasks required of the 
+                Members of armed forces are often required to pass a formal fitness test. For example, soldiers of the U.S. Army must be able to pass the Army Physical Fitness Test (APFT).</p>
+               <p><br> Hill sprints: Requires a high level of fitness to begin with; the exercise is particularly good for the leg muscles. The Army often trains to do mountain climbing and races.</p>
+               <p><br> Plyometric and isometric exercises: An excellent way to build strength and increase muscular endurance.
+                Sand running creates less strain on leg muscles than running on grass or concrete. This is because sand collapses beneath the foot, which softens the landing. Sand training is an effective way to lose weight and become fit, as more effort is needed (one and a half times more) to run on the soft sand than on a hard surface.
+                Aquajogging is a form of exercise that decreases strain on joints and bones. The water supplies minimal impact[clarification needed] to muscles and bones, which is good for those recovering from injury. Furthermore, the resistance of the water as one jogs through it provides an enhanced effect of exercise (the deeper you are, the greater the force needed to pull your leg through).</p>
+               <p><br> Swimming: Squatting exercise helps in enhancing a swimmer's start.</p>
+            </p>
+        </div>
+        <div class="thubnail"><img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="text-center ">Contact-us</h1>
+        <form action="../CSS/action.php" method="post">
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="text" name="name" id="phone" placeholder="Enter your phone no.">
+            <input class="form-input" type="email" name="name" id="email" placeholder="Enter your email">
+            <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Fedback"></textarea>
+            <button class="btn dark-btn">submit </button>
+
+        </div>
+        </form>
+    </section>
+    <footer>
+        <p class="copyrights">
+            <strong> copyright &copy; 2027- All rights reserved</strong>
+        </p>
+    </footer>
+    <script src="js/resp.js"></script>
+</body>
+
+</html>
